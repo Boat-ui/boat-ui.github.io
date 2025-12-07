@@ -598,6 +598,21 @@ footer {
     font-size: 0.9rem;
 }
 
+/* GitHub Pages footer style */
+.footer-github {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    color: #aaa;
+}
+
+.footer-github i {
+    font-size: 1.5rem;
+    color: #6cc644; /* GitHub green */
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .section-title {
@@ -628,4 +643,5 @@ footer {
     .contact-grid {
         grid-template-columns: 1fr;
     }
+
 }
